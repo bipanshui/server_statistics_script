@@ -1,54 +1,43 @@
 # 📊 Server Stats Script (`server-stats.sh`)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/server-stats)
-![GitHub stars](https://img.shields.io/github/stars/your-username/server-stats?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/server-stats?style=social)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Bash](https://img.shields.io/badge/made%20with-bash-1f425f.svg)
-![Platform](https://img.shields.io/badge/platform-linux-blue)
-![CI](https://github.com/your-username/server-stats/actions/workflows/main.yml/badge.svg)
+A lightweight Bash script to analyze basic server performance metrics on any Linux system.
+
+This script is useful for **system administrators, DevOps engineers, and learners** who want a quick overview of system health directly from the terminal.
 
 ---
 
-## 🚀 Overview
+## 🚀 Features
 
-A lightweight **Bash script** to analyze basic server performance metrics on any Linux system.
+### 🖥️ CPU Usage
+- Displays total CPU usage percentage
 
-Perfect for:
-- 🧑‍💻 DevOps Engineers  
-- 🖥️ System Administrators  
-- 📚 Students learning Linux  
-
-Get a quick snapshot of your system health directly from the terminal ⚡
-
----
-
-## ✨ Features
-
-- 🖥️ **CPU Usage**
-  - Total CPU usage percentage
-
-- 🧠 **Memory Usage**
-  - Total, Used, Free memory
+### 🧠 Memory Usage
+- Shows:
+  - Total memory
+  - Used memory
+  - Free memory
   - Usage percentage
 
-- 💾 **Disk Usage**
-  - Total, Used, Free space
+### 💾 Disk Usage
+- Displays:
+  - Total disk space
+  - Used space
+  - Free space
   - Usage percentage
 
-- 🔥 **Top Processes**
-  - Top 5 by CPU usage
-  - Top 5 by Memory usage
+### 🔥 Top Processes
+- Top 5 processes by **CPU usage**
+- Top 5 processes by **Memory usage**
 
 ---
 
-## 🌟 Extended Features (Optional)
+## 🌟 Stretch Features (Optional)
 
-- 🏷️ OS version  
-- ⏱️ System uptime  
-- 📈 Load average  
-- 👥 Logged-in users  
-- 🔐 Failed login attempts  
+- OS version
+- System uptime
+- Load average
+- Logged-in users
+- Failed login attempts
 
 ---
 
@@ -56,14 +45,13 @@ Get a quick snapshot of your system health directly from the terminal ⚡
 
 - Linux OS (Ubuntu, Fedora, RHEL, etc.)
 - Bash
-
-### Required Commands:
-- `top`
-- `ps`
-- `free`
-- `df`
-- `uptime`
-- `who`
+- Commands:
+  - `top`
+  - `ps`
+  - `free`
+  - `df`
+  - `uptime`
+  - `who`
 
 ---
 
